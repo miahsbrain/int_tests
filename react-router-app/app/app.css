@@ -1,10 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('/fonts/montserrat.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white text-black dark:bg-gray-950 dark:text-white font-montserrat;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
